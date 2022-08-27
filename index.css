@@ -1,0 +1,141 @@
+
+
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(16, 25, 32);
+    color: white;
+
+}
+
+.header input{
+    padding-left: 5%;
+}
+
+.header-nav{
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header .header-nav .header-container .header-search{
+    
+}
+
+.header .header-cart{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.header .header-nav .header-container p{
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.welcome-screen{
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.welcome-screen .welcome-header h1{
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 70px;
+}
+
+.welcome-screen .welcome-header p{
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.welcome-screen .welcome-header text{
+    padding-left: 3%;
+    font-size: 95px;
+    color: navy;
+}
+
+.image-section h1{
+    padding-left: 29%;
+    font-size: 40px;
+}
+
+.image-section text{
+    padding-left: 4%;
+    color: navy;
+    font-size: 50px;
+}
+
+.image-section{
+    background-color: rgb(255, 231, 21);
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.image-section .cat{
+    padding: 5%;
+
+}
+
+.image-section img{
+    padding-left: 2%;
+    width: 30%;
+    height: 30%;
+}
+
+.about{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.about h1{
+    padding-top: 5%;
+    padding-left: 37%;
+    font-size: 35px;
+}
+
+.about text{
+    color: navy;
+    font-size: 50px;
+}
+
+.about p{
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 5%;
+}
+
+.bottom{
+    padding-top: 5%;
+    background-color: rgb(16, 25, 32);
+    padding-bottom: 3%;
+    color: white;
+}
+
+.bottom h1{
+    padding-left: 39%;
+}
+
+.bottom h2{
+    padding-left: 44%;
+    padding-top: 2%;
+}
+
+.bottom p{
+    padding-left: 42%;
+    padding-top: 10%;
+}
