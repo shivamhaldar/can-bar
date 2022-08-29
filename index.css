@@ -13,37 +13,57 @@ body{
 .header{
     width: 100%;
     height: 50px;
-    background-color: rgb(16, 25, 32);
     color: white;
+    background-color: black;
 
-}
-
-.header input{
-    padding-left: 5%;
 }
 
 .header-nav{
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 25px;
     display: flex;
     flex-direction: column;
 }
 
 .header .header-nav .header-container .header-search{
-    
+    margin-left: 0;
+    padding-left: 0;
 }
 
-.header .header-cart{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-
-}
 .header .header-nav .header-container p{
     color: white;
     text-align: center;
     float: left;
+}
+
+.search h1{
+    font-size: 40px;
+    padding-top: 4%;
+    padding-left: 33%;
+}
+
+.search{
+    padding-left: 42%;
+    padding-top: 2%;
+}
+
+.search button{
+    width: 30%;
+    height: 27px;
+    border-radius: 4px;
+    background-color: navy;
+    color: white;
+}
+
+.search button a{
+    color: white;
+}
+
+.search input{
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 29%;
+    height: 22px;
 }
 
 .welcome-screen{
@@ -53,8 +73,9 @@ body{
 
 .welcome-screen .welcome-header h1{
     padding-top: 10%;
-    padding-left: 10%;
-    font-size: 70px;
+    padding-left: 9%;
+    padding-right: 9%;
+    font-size: 60px;
 }
 
 .welcome-screen .welcome-header p{
@@ -69,13 +90,33 @@ body{
     color: navy;
 }
 
+.iphone-screen
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+}
+
+.iphone-screen img{
+    width: 50%;
+    height: 90%;
+    padding-left: 16%;
+}
+
+.iphone-screen .inf p{
+    padding-top: 9%;
+    display: flex;
+}
+
+
 .image-section h1{
-    padding-left: 29%;
+    padding-left: 43%;
     font-size: 40px;
 }
 
 .image-section text{
-    padding-left: 4%;
+    padding-top: 2%;
+    padding-left: 38%;
     color: navy;
     font-size: 50px;
 }
@@ -91,10 +132,38 @@ body{
 
 }
 
-.image-section img{
+.image-section .cat img{
     padding-left: 2%;
     width: 30%;
     height: 30%;
+}
+
+.image-section .order{
+    padding-left: 41%;
+}
+
+.image-section .order button{
+    font-size: 18px;
+    width: 29%;
+    height: 34px;
+    color: white;
+    background-color: navy;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.image-section .order a{
+    color: white;
+}
+
+.image-section .order a:hover{
+    color: black;
+}
+
+.image-section .order button:hover{
+    background-color: white;
+    color: black;
+    transition-delay: 10ms;
 }
 
 .about{
@@ -119,23 +188,37 @@ body{
     padding-top: 5%;
 }
 
-.bottom{
-    padding-top: 5%;
-    background-color: rgb(16, 25, 32);
-    padding-bottom: 3%;
+.rules h2{
+    padding-left: 37%;
+    font-size: 40px;
+}
+
+.rules p{
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 4%;
+    padding-bottom: 15%;
+}
+
+.block{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.923);
     color: white;
+    width: 100%;
 }
 
-.bottom h1{
-    padding-left: 39%;
-}
-
-.bottom h2{
-    padding-left: 44%;
+.block .bottom{
     padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    width: 33.33%;
 }
 
-.bottom p{
-    padding-left: 42%;
-    padding-top: 10%;
+.block .bottom .three{
+    padding-left: 39%;
+
+}
+
+.block .bottom .three p{
+    padding-top: 4%;
 }
